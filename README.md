@@ -10,8 +10,11 @@
 ![](images/output_countplot.png)
 
 # Model Building
+The training and testing data set for this data is 70% training and 30% testing
 
-I decided to use a logistic Regression and Random Forest for this project. 
+I decided to use a logistic Regression and Random Forest for this project:
+* Logistic Regression: baseline for the model
+* Random Forest: with the features provided, I thought it would improve our model
 
 # Model Performance
 The performance used is a confusion matrix and classification report.
