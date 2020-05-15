@@ -1,6 +1,29 @@
-# Fertility-Rate Classification
+# Fertility Overview
+* Infertility Rate is at an all time low in the U.S. and I want to classify if features will affect infertility rate.
+* 100 sample from UCI Machine Learning Dataset
+* 93% percision with Logisctic Regression and Random Forest Regressor
 
-# Summary
+# Exploratory Data Analysis
+![](images/Season_count_plot.png)
+![](images/Surgical_intervention.png)
+![](images/alcohol_consumption.png)
+![](images/output_countplot.png)
 
-Fertility rate has reached one of its lowest in the U.S. since 2019 with an average of 1.77 births per woman. This project is going to focus on 100 sperm and see if their past history affect the sperm by performing a prediction with Logistic Regression and Random Forest.
+# Model Building
 
+I decided to use a logistic Regression and Random Forest for this project. 
+
+# Model Performance
+The performance used is a confusion matrix and classification report.
+Both Logistic and Random Forest gave the same result.
+
+Confusion Matrix:
+
+* [[28  0]
+* [ 2  0]]
+             
+             
+             precision    recall  f1-score   support
+
+           0       0.93      1.00      0.97        28
+           1       0.00      0.00      0.00         2
