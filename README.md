@@ -1,7 +1,7 @@
 # Fertility Overview
 * Infertility Rate is at an all time low in the U.S. and I want to classify if features will affect infertility rate.
 * 100 sample from UCI Machine Learning Dataset
-* 93% percision with Logisctic Regression and Random Forest Regressor
+* 93% precision with Logistic Regression and Random Forest Regressor
 
 # Exploratory Data Analysis
 ![](images/Season_count_plot.png)
